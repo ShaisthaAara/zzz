@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-void fun(int n)
+void func(int n)
 {
     // int n= 65;
     if (n >= 90)
@@ -13,10 +13,10 @@ void fun(int n)
     }
 
     cout << char(n) << " ";
-    fun(n + 1);
+    func(n + 1);
 }
 int main()
 {
-    fun(9);
+    func(9);
     return 0;
 }
